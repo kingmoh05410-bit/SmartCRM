@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  call_log: ^2.3.0
+  call_log: ^4.0.0
 
 flutter:
   uses-material-design: true
