@@ -23,7 +23,7 @@ jobs:
         flutter-version: '3.19.0'
         channel: 'stable'
 
-    - name: Fix and Create Android Platform
+    - name: Create Android Platform Automatically
       run: |
         flutter create . --platforms=android --org com.example
 
