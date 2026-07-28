@@ -25,7 +25,8 @@ jobs:
 
     - name: Create Android Platform Automatically
       run: |
-        flutter create . --platforms=android --org com.example
+        flutter create . --platforms=android --org com.example --project-name smartcrm
+
 
     - name: Build APK
       run: flutter build apk --release
